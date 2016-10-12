@@ -1,0 +1,96 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+header {
+    background-color: #ffff00;
+	color: black;
+	height: 128px;
+}
+
+h1.sidebyside {
+	float: left;
+    display: block;
+}
+button {
+	float: right;
+    display: block;
+	margin-top: 20px
+}
+
+
+div.logo {
+	float:left;
+    margin: 10px;
+    padding: 10px;
+    max-width: 128px;
+	height: 200px;
+}
+
+img {
+	
+    margin: 10px;
+    padding: 10px;
+    width: 128px;
+	height: 128px;
+	border: 1px solid blue;
+	
+}
+
+nav {
+    float: left;
+    max-width: 300px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+li #header {
+     display: inline
+}
+section, article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+div.show {
+    display: none;
+	text-align: justify
+}
+
+div.Help {
+    display: none;
+	text-align: justify;
+	margin-left: 700px
+
+}
+    
+p:hover + div.show {
+    display: block;
+}
+h1:hover + div.Help {
+    display: block;	
+
+}
+
+li + p {
+    margin: 10px;
+    padding: 20px 20px 100px; 
+}
